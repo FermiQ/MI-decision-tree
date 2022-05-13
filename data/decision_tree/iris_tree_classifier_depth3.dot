@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="atomic_pauling_electronegativity_wad <= 1.538\ngini = 0.492\nsamples = 84890\nvalue = [47969, 36921]", fillcolor="#f9e2d1"] ;
+1 [label="atomic_ionization_potential_wa <= 9.133\ngini = 0.298\nsamples = 29705\nvalue = [5418, 24287]", fillcolor="#65b3eb"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="atomic_pauling_electronegativity_wa <= 2.073\ngini = 0.197\nsamples = 26076\nvalue = [2884, 23192]", fillcolor="#52a9e8"] ;
+1 -> 2 ;
+3 [label="gini = 0.143\nsamples = 23027\nvalue = [1786, 21241]", fillcolor="#4aa5e7"] ;
+2 -> 3 ;
+4 [label="gini = 0.461\nsamples = 3049\nvalue = [1098, 1951]", fillcolor="#a8d4f4"] ;
+2 -> 4 ;
+5 [label="atomic_pauling_electronegativity_wa <= 2.097\ngini = 0.421\nsamples = 3629\nvalue = [2534, 1095]", fillcolor="#f0b78f"] ;
+1 -> 5 ;
+6 [label="gini = 0.489\nsamples = 712\nvalue = [304, 408]", fillcolor="#cde6f8"] ;
+5 -> 6 ;
+7 [label="gini = 0.36\nsamples = 2917\nvalue = [2230, 687]", fillcolor="#eda876"] ;
+5 -> 7 ;
+8 [label="atomic_ionization_potential_wa <= 11.0\ngini = 0.353\nsamples = 55185\nvalue = [42551, 12634]", fillcolor="#eda674"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="atomic_volume_wa <= 12.678\ngini = 0.427\nsamples = 27291\nvalue = [18842, 8449]", fillcolor="#f1ba92"] ;
+8 -> 9 ;
+10 [label="gini = 0.326\nsamples = 969\nvalue = [199, 770]", fillcolor="#6cb6ec"] ;
+9 -> 10 ;
+11 [label="gini = 0.413\nsamples = 26322\nvalue = [18643, 7679]", fillcolor="#f0b58b"] ;
+9 -> 11 ;
+12 [label="atomic_number_wa <= 11.145\ngini = 0.255\nsamples = 27894\nvalue = [23709, 4185]", fillcolor="#ea975c"] ;
+8 -> 12 ;
+13 [label="gini = 0.119\nsamples = 8757\nvalue = [8200, 557]", fillcolor="#e78a46"] ;
+12 -> 13 ;
+14 [label="gini = 0.307\nsamples = 19137\nvalue = [15509, 3628]", fillcolor="#eb9e67"] ;
+12 -> 14 ;
+}

@@ -1,0 +1,5 @@
+Creative Common Attribution (4.0)
+VASP data by Chris Wolverton; Vinay Hegde; Logan Ward
+http://oqmd.org
+http://dx.doi.org/10.1007/s11837-013-0755-4
+FHI-aims data by Sebastian Kokott

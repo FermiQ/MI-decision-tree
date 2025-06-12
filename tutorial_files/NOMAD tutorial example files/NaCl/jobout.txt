@@ -1,0 +1,30 @@
+----------------------------------------
+PBS: Begin PBS Prologue Fri Jan 17 15:52:13 CST 2014 1389995533
+PBS: Job ID:		14012424.qsched02.quest.it.northwestern.edu
+PBS: Username:		sjk648
+PBS: Group:		sjk648
+PBS: Executing queue:     normal
+PBS: Job name:		8090_static
+PBS: Account:		p20273
+----------------------------------------
+   The following variables are not
+   guaranteed to be the same in 
+   prologue and the job run script  
+----------------------------------------
+PBS: Temporary Dir($TMPDIR):	/tmp/14012424.qsched02.quest.it.northwestern.edu
+PBS: Master Node($PBS_MSHOST):		qnode0024
+PBS: node file($PBS_NODEFILE):  /hpc/opt/torque/nodes/qnode0024/aux//14012424.qsched02.quest.it.northwestern.edu
+PBS: PATH (in prologue) : /bin:/usr/bin
+PBS: WORKDIR ($PBS_O_WORKDIR) is:  /projects/b1004/sjk648/auto_run/8090_static
+----------------------------------------
+PBS: End PBS Prologue Fri Jan 17 15:52:13 CST 2014 1389995533
+1389995533
+1389995611
+----------------------------------------
+PBS job ended
+Begin PBS Epilogue Fri Jan 17 15:53:36 CST 2014 1389995616
+JobID: 14012424.qsched02.quest.it.northwestern.edu
+Session ID:			6266
+Resources Used:			cput=00:01:17,mem=85876kb,vmem=264784kb,walltime=00:01:18
+Job exit value:			0
+----------------------------------------

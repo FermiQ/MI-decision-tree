@@ -1,0 +1,7 @@
+README.md
+setup.py
+sgd_alloys_oxygen_reduction_evolution.egg-info/PKG-INFO
+sgd_alloys_oxygen_reduction_evolution.egg-info/SOURCES.txt
+sgd_alloys_oxygen_reduction_evolution.egg-info/dependency_links.txt
+sgd_alloys_oxygen_reduction_evolution.egg-info/requires.txt
+sgd_alloys_oxygen_reduction_evolution.egg-info/top_level.txt

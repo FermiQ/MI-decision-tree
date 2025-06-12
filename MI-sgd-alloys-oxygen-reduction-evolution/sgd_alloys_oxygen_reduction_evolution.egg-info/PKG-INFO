@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: sgd-alloys-oxygen-reduction-evolution
+Version: 1.0
+Summary: Introduction to subgroup discovery: Identifying outstanding transition-metal-alloy catalysts
+Home-page: https://gitlab.mpcdf.mpg.de/nomad-lab/analytics-sgd-alloys-oxygen-reduction-evolution
+Author: Foppa, Lucas, Ghiringhelli, Luca M.
+Author-email: foppa@fhi-berlin.mpg.de
+License: UNKNOWN
+Description: This tutorial introduces, by means of two applications in materials science, the artificial-intelligence technique subgroup discovery.
+Platform: UNKNOWN

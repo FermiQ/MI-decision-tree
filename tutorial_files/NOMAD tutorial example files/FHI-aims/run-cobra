@@ -1,0 +1,16 @@
+#!/bin/bash -l
+
+#SBATCH -o ./tjob_hybrid.out.%j
+#SBATCH -e ./tjob_hybrid.err.%j
+#SBATCH -D ./
+#SBATCH -J run_forrest_run
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=40
+#SBATCH --mail-type=none
+#SBATCH --mail-user=forrest@gump.run
+#SBATCH --time=00:30:00
+
+export OMP_NUM_THREADS=1
+export MKL_NUM_THREADS=1
+
+srun aims.O3.x > aims.out 2> aims.err
